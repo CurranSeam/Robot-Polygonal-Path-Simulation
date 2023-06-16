@@ -6,7 +6,9 @@ The following steps assume that you already have a catkin workspace, a created p
 
 In robot_polygon_path.launch edit the following line:
 - `<node pkg="<YOUR_PACKAGE>" type="robot_polygon_path" name="robot_polygon_path" output="screen">`
-- replace <YOUR_PACKAGE> with the package that you have built
+- Replace <YOUR_PACKAGE> with the package that you have built
+- Place robot_polygon_path in `catkin_ws/src/<YOUR_PACKAGE>/src/robot_polygon_path`
+- Place robot_polygon_path.launch in `catkin_ws/src/<YOUR_PACKAGE>/launch/robot_polygon_path.launch`
 
 How to run simulation:
 - Open an Ubuntu terminal
