@@ -1,0 +1,15 @@
+<launch>
+
+-<!-- robot_polygon_path node launch and ROS Parameters for number of sides and length of sides-->
+
+    <!--Run robot_polygon_path node-->
+        <node pkg="<YOUR_PACKAGE>" type="robot_polygon_path" name="robot_polygon_path" output="screen">
+        
+        <!-- Load number of sides polygon will have -->
+            <rosparam param="num_sides">320</rosparam>
+        <!-- Load length of all sides of polygon -->
+            <rosparam param="side_length">0.3</rosparam>
+
+        </node>
+
+</launch>
